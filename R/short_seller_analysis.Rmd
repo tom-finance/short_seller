@@ -128,6 +128,7 @@ names <- all_test %>%
   distinct()
 
 # next code is used to manually correct the names in the data
+# uncomment only if you want to redo manual matching!
 
 # count <- names %>%
 #   group_by(ISIN) %>%
@@ -241,6 +242,7 @@ kable(hedge_fund_count, "latex", booktabs = T, caption = "Most active Hedge Fund
 
 ```
 
+\newpage
 
 ## Most Active Hedge Funds (Full Sample Active Positions Count)
 
